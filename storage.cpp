@@ -275,23 +275,3 @@ bool Storage::swap(int i, int j)
         return true;
     }
 }
-/*
-int main() {
-    Storage *s = new Storage();
-    if(s->isEmpty() == true)
-        cout << "Empty" << endl;
-    s->push(6);
-    s->push(5);
-    s->push(4);
-    s->push(3);
-    s->push(2);
-    s->push(1);
-    s->swap(5,0);
-
-    for(Node *temp = s->head; temp != NULL; temp = temp->next)
-    {
-        cout << temp->data << " && ";
-    }
-    cout << "NULL\n";
-    return 0;
-}*/
